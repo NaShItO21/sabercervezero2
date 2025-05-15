@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saber Cervezero</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #fefefe; color: #333; }
+    header { background-color: #0d1b2a; color: #e0b973; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 3rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; margin-top: 0; }
+    .btn-suscripcion { background-color: #e0b973; color: #0d1b2a; border: none; padding: 12px 30px; font-size: 1rem; margin-top: 20px; cursor: pointer; border-radius: 25px; transition: background-color 0.3s ease; }
+    .btn-suscripcion:hover { background-color: #c69a58; }
+    section { padding: 60px 20px; max-width: 1000px; margin: 0 auto; }
+    section h2 { color: #0d1b2a; font-size: 2rem; margin-bottom: 20px; }
+    section p { font-size: 1.1rem; line-height: 1.6; }
+    footer { background-color: #0d1b2a; color: #fff; text-align: center; padding: 30px 20px; font-size: 0.9rem; }
+    .packs { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px; }
+    .pack { border: 1px solid #ccc; border-radius: 10px; padding: 20px; max-width: 300px; text-align: center; background-color: #fff; }
+    .pack img { max-width: 100%; border-radius: 10px; margin-bottom: 15px; }
+    .price { font-size: 1.2rem; color: #0d1b2a; margin-top: 10px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Saber Cervezero</h1>
+    <p>Más que una cerveza, una experiencia</p>
+    <button class="btn-suscripcion">Suscribite ahora</button>
+  </header>
+
+  <section id="packs">
+    <h2>Elegí tu pack</h2>
+    <div class="packs">
+      <div class="pack">
+        <img src="pack_clasico.png" alt="Pack Clásico">
+        <h3>Pack Clásico</h3>
+        <p>Lager, Pale Ale y Amber Ale para todos los paladares.</p>
+        <p class="price">USD 10</p>
+      </div>
+      <div class="pack">
+        <img src="pack_foodie.png" alt="Pack Foodie">
+        <h3>Pack Foodie</h3>
+        <p>IPA con frutas, stout de lavanda y más sabores originales.</p>
+        <p class="price">USD 20</p>
+      </div>
+      <div class="pack">
+        <img src="pack_exotico.png" alt="Pack Exótico">
+        <h3>Pack Exótico</h3>
+        <p>Sabores únicos como IPA con albahaca y maracuyá, sin alcohol.</p>
+        <p class="price">USD 30</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-nosotros">
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos amantes de la cerveza artesanal que creemos que beber puede ser una experiencia completa. Conectamos a personas curiosas con sabores únicos, maridajes gourmet y el conocimiento que convierte cada sorbo en una historia.</p>
+  </section>
+
+  <section id="beneficios">
+    <h2>¿Por qué elegirnos?</h2>
+    <p>Te llevamos cada mes una selección curada de cervezas artesanales con sugerencias de maridaje, fichas educativas y una presentación premium. Buscamos el equilibrio entre lo clásico y lo novedoso para que disfrutes, aprendas y descubras.</p>
+  </section>
+
+  <section id="proximamente">
+    <h2>Planes de suscripción (Próximamente)</h2>
+    <p>Pronto podrás elegir entre distintos niveles de suscripción según tu paladar: básico, clásico o foodie. ¡Estate atento!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Saber Cervezero. Todos los derechos reservados.</p>
+    <p>Contacto: hola@sabercervezero.com | Instagram: @sabercervezero</p>
+  </footer>
+</body>
+</html>
